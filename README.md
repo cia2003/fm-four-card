@@ -31,7 +31,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [cia2003](https://github.com/cia2003/fm-four-card)
-- Live Site URL: [live site](https://your-live-site-url.com)
+- Live Site URL: [live site]([https://your-live-site-url.com](https://cia2003.github.io/fm-four-card))
 
 ## My process
 
