@@ -24,7 +24,6 @@ body {
     align-items: center;
     padding: 20px 15px;
     gap: 2em;
-
 }
 
 .content__intro {
@@ -139,7 +138,10 @@ body {
     color: var(--primary-blue); 
 }
 
-@media screen and (min-width: 1000px){
+@media screen and (min-width: 63em){
+    .content {
+        height: 100vh;
+    }
     .content__lists {
         grid-template-columns: repeat(6, auto);
         grid-template-rows: repeat(4, auto);
