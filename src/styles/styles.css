@@ -9,6 +9,7 @@
     --font-weight-200: 200;
     --font-weight-400: 400;
     --font-weight-600: 600;
+    --shadow-default: 0px 2px 5px rgba(0, 0, 0, 0.3);
 }
 
 body {
@@ -52,10 +53,6 @@ body {
     color: var(--neutral-grey-500);
 }
 
-.content__description--margin-bottom {
-    margin-bottom: 5em;
-}
-
 .content__lists {
     display: grid;
     justify-content: center;
@@ -75,7 +72,7 @@ body {
     max-width: 250px;
     border-radius: 5px;
     padding: 25px 30px;
-    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+    box-shadow: var(--shadow-default);
     background-color: var(--neutral-white);
 }
 
@@ -114,24 +111,24 @@ body {
     align-self: flex-end;
 }
 
-#supervisor-card {
+.layout__supervisor-card {
     grid-area: supervisor-card;
 }
 
-#team-builder-card {
+.layout__team-builder-card {
     grid-area: team-builder-card;
 }
 
-#karma-card {
+.layout__karma-card {
     grid-area: karma-card;
 }
 
-#calculator-card {
+.layout__calculator-card {
     grid-area: calculator-card;
 }
 
 .attribution { 
-    font-size: 11px; text-align: center; 
+    font-size: 0.8em; text-align: center; 
 }
 
 .attribution a { 
