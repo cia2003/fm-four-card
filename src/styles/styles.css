@@ -14,7 +14,7 @@
 body {
     font-size: 15px;
     font-family: 'Poppins', sans-serif;
-    background-color: var(--neutral-white);
+    background-color: rgb(251, 251, 251);
 }
 
 .content {
@@ -77,6 +77,7 @@ body {
     border-radius: 5px;
     padding: 25px 30px;
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+    background-color: var(--neutral-white);
 }
 
 .content__card--border-top-cyan {
